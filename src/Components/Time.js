@@ -6,5 +6,8 @@ function Time () {
     const [data, setData] = useState("")
     const [saved , setSaved] = useState(() => {
         const stored = localStorage.getItem("capsule")
-    })
+        return stored ? JSON.parse(stored) : null;
+    });
+
+    
 }
