@@ -30,4 +30,5 @@ function Time () {
         <div className="capsule-container">
           <h1>Time Capsule 📩</h1>
           {!saved ? (
+              <div className="form">
         </div>
