@@ -1,5 +1,27 @@
 ![App Screenshot](src/assets/imagee.jpg)
 
+# 🕰️ Time Capsule Message
+
+A futuristic **time-locked message vault** built in React. Users can write messages and set a future reveal date. Messages remain hidden until the chosen day arrives.
+
+---
+
+## 📌 Features
+- 🔒 **Message Locking**: Hide messages until a future date.
+- 📝 **Text Input + Date Picker**.
+- ⏰ **Auto Reveal** once the date is reached.
+- 💾 **Local Storage**: Messages persist across sessions.
+- 🎨 **Dark/Light Mode Styling** options.
+
+---
+
+## 🛠️ Technologies Used
+- ⚛️ **React**
+- 📅 **Date Handling**
+- 🎨 **CSS** (`Time.css` for styling)
+
+
+
 ---
 
 ## 🚀 Live Demo
