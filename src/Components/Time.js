@@ -16,5 +16,5 @@ function Time () {
             setSaved(data);
             setMessage("");
             setDate("");
-          };
-}
+          }
+};
