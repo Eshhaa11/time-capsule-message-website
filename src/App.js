@@ -1,4 +1,4 @@
-import react from "react";
+
 import Time from "./Components/Time";
 
 function App() {
