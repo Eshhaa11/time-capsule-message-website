@@ -10,11 +10,13 @@ function Time () {
     });
 
     const handleSubmit = () => {
-        if (message && date) { 
-            const data = { message, date };  
-            localStorage.setItem("capsule", JSON.stringify(data));
-            setSaved(data);
-            setMessage("");
-            setDate("");
-          }
+        if (message && date) {
+          const data = { message, date };
+          localStorage.setItem("capsule", JSON.stringify(data));
+          setSaved(data);
+          setMessage("");
+          setDate("");
+        }
 };
+
+    const
