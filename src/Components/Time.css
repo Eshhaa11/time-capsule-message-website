@@ -1,36 +1,35 @@
 body {
-    background-color:powderblue;
+  background-color: powderblue;
 }
 
 .capsule-container {
-    margin: 60px auto;
-    max-width: 600px;
-    padding: 30px;
-    border-radius: 12px;
-    background-color: #1e1e1e;
-    font-family: 'Segoe UI';
-    color: #f1f1f1;
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #1e1e1e;
+  font-family: "Segoe UI";
+  color: #f1f1f1;
 }
 
 .capsule-container h1 {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 25px;
-    color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #ffffff;
 }
 
 .form textarea,
-.form input[type="date"] { 
-    padding: 12px 14px;
-    width: 100%;
-    margin-bottom: 16px;
-    border: 1px solid #444;
-   border-radius: 8px;
-   font-size: 1rem;
-   background-color: #2a2a2a;
-   color: #f1f1f1;
-   transition: 0.2s;
- 
+.form input[type="date"] {
+  padding: 12px 14px;
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  transition: 0.2s;
 }
 
 .form textarea:focus,
@@ -40,36 +39,36 @@ body {
 }
 
 .form button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    background-color: #4dabf7;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4dabf7;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
 
-  .form button:hover {
-    background-color: #339af0;
-  }
-  
-  .message-box,
-  .locked-box {
-    margin-top: 25px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #2b2b2b;
-    font-size: 1.1rem;
-    text-align: center;
-  }
-  
-  .message-box p {
-    color: #51cf66;
-  }
-  
-  .locked-box p {
-    color: #adb5bd;
-  }
+.form button:hover {
+  background-color: #339af0;
+}
+
+.message-box,
+.locked-box {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2b2b2b;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.message-box p {
+  color: #51cf66;
+}
+
+.locked-box p {
+  color: #adb5bd;
+}
