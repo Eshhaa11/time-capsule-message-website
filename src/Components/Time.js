@@ -21,3 +21,7 @@ function Time () {
 
     const  isMessageVisible = () => {
         if (!saved) return false;
+        const now = new Date();
+        const targetDate = new Date(saved.date);
+        return now >= targetDate;
+      };
