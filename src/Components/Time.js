@@ -25,3 +25,8 @@ function Time () {
         const targetDate = new Date(saved.date);
         return now >= targetDate;
       };
+
+      return (
+        <div className="capsule-container">
+          <h1>Time Capsule 📩</h1>
+        </div>
