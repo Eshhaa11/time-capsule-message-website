@@ -19,4 +19,5 @@
 .form input[type="date"] { 
     padding: 12px 14px;
     width: 100%;
+    margin-bottom: 16px;
 }
