@@ -47,3 +47,25 @@
     cursor: pointer;
     transition: background-color 0.2s;
   }
+
+  .form button:hover {
+    background-color: #339af0;
+  }
+  
+  .message-box,
+  .locked-box {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2b2b2b;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .message-box p {
+    color: #51cf66;
+  }
+  
+  .locked-box p {
+    color: #adb5bd;
+  }
