@@ -29,4 +29,5 @@ function Time () {
       return (
         <div className="capsule-container">
           <h1>Time Capsule 📩</h1>
+          {!saved ? (
         </div>
