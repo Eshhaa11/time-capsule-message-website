@@ -31,4 +31,9 @@ function Time () {
           <h1>Time Capsule 📩</h1>
           {!saved ? (
               <div className="form">
+                <textarea
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            placeholder="Write your future message..."
+          />
         </div>
