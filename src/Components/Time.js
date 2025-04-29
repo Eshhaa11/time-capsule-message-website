@@ -19,4 +19,5 @@ function Time () {
         }
 };
 
-    const
+    const  isMessageVisible = () => {
+        
