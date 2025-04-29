@@ -36,4 +36,9 @@ function Time () {
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Write your future message..."
           />
+           <input
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+          />
         </div>
