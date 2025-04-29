@@ -28,3 +28,9 @@
    transition: 0.2s;
  
 }
+
+.form textarea:focus,
+.form input[type="date"]:focus {
+  border-color: #4dabf7;
+  outline: none;
+}
