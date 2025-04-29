@@ -10,5 +10,5 @@ function Time () {
     });
 
     const handleSubmit = () => {
-        
+        if (message && date) {   
 }
