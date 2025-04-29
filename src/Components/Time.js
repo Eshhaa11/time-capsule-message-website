@@ -10,5 +10,6 @@ function Time () {
     });
 
     const handleSubmit = () => {
-        if (message && date) {   
+        if (message && date) { 
+            const data = { message, date };  
 }
