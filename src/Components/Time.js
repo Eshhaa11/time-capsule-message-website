@@ -14,4 +14,7 @@ function Time () {
             const data = { message, date };  
             localStorage.setItem("capsule", JSON.stringify(data));
             setSaved(data);
+            setMessage("");
+            setDate("");
+          };
 }
