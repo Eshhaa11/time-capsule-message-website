@@ -30,15 +30,31 @@ function Time () {
         <div className="capsule-container">
           <h1>Time Capsule 📩</h1>
           {!saved ? (
-              <div className="form">
-                <textarea
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            placeholder="Write your future message..."
-          />
-           <input
-            type="date"
-            value={date}
-            onChange={(e) => setDate(e.target.value)}
-          />
+            <div className="form">
+              <textarea
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                placeholder="Write your future message..."
+              />
+              <input
+                type="date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+              />
+              <button onClick={handleSubmit}>Save Capsule</button>
+            </div>
+          ) : isMessageVisible() ? (
+            <div className="message-box">
+              <h2>Your Message:</h2>
+              <p>{saved.message}</p>
+            </div>
+          ) : (
+            <div className="locked-box">
+              <p>🔒 Your message is locked until {saved.date}</p>
+            </div>
+          )}
         </div>
+      );
+    }
+    
+    export default Time;
