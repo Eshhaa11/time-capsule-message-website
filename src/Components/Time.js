@@ -20,4 +20,4 @@ function Time () {
 };
 
     const  isMessageVisible = () => {
-        
+        if (!saved) return false;
